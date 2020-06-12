@@ -8,27 +8,20 @@
     background: url('../image/landing.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center center;
+    background-position: left center;
     height: 100vh;
     left: 50vw;
-    /* align-items: center; */
-    /* text-align: center; */
-    display: flex;
 }
 
-.container h1{
-    position: absolute;
-    bottom: 100px;
-    left: 480px;
-    text-align: center;
+h1.text{
+    text-align: left;
     margin: auto;
-    font-size: 90px;
+    font-size: 8vw;
     line-height: 120px;
     letter-spacing: 5px;
-    background-color: darkslategrey;
-    color: white;
-    padding-left: 10px;
-    padding-right: 5px;
+    color: whitesmoke;
+    padding-top: 72vh;
+    padding-left: 6vw;
     text-shadow: -2px 0 0 #fdff2a,
     -4px 0 0 #df4a42,
     2px 0 0 #91fcfe,
