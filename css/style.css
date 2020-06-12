@@ -3,18 +3,23 @@
     padding: 0;
 }
 
+
 .container{
-    background-image: url('../image/landing.jpg');
+    background: url('../image/landing.jpg');
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
     height: 100vh;
-    width: 100vw;
+    left: 50vw;
+    /* align-items: center; */
+    /* text-align: center; */
+    display: flex;
 }
 
-.bottom_title{
+.container h1{
     position: absolute;
     bottom: 100px;
-    left: 492px;
+    left: 480px;
     text-align: center;
     margin: auto;
     font-size: 90px;
@@ -28,7 +33,7 @@
     -4px 0 0 #df4a42,
     2px 0 0 #91fcfe,
     4px 0 0 #4405fc;
-    animation: blink 1s steps(4, start) infinite;
+    animation: blink 2s steps(4, start) infinite;
 }
 
 @keyframes blink {
