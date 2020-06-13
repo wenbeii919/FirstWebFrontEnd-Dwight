@@ -34,3 +34,41 @@ h1.text{
         visibility: hidden;
     }
 }
+
+@font-face {
+    font-family: "odibee";
+    src: url(../fonts/OdibeeSans-Regular.ttf);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.intro {
+    font-family: odibee;
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    bottom: 45vh;
+    left: 50vw;
+    animation: type 12s steps(93);
+    overflow: hidden;
+    white-space: nowrap;
+    width: 93ch;
+}
+
+.listings {
+    font-family: odibee;
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    bottom: 40vh;
+    left: 65vw;
+}
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 93ch;
+    }
+}
