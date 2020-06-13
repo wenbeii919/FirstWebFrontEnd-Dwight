@@ -29,12 +29,6 @@ h1.text{
     animation: blink 2s steps(4, start) infinite;
 }
 
-@keyframes blink {
-    to {
-        visibility: hidden;
-    }
-}
-
 @font-face {
     font-family: "odibee";
     src: url(../fonts/OdibeeSans-Regular.ttf);
@@ -47,22 +41,66 @@ h1.text{
     text-align: left;
     font-size: 20px;
     position: relative;
-    bottom: 45vh;
-    left: 50vw;
+    bottom: 65vh;
+    left: 51vw;
     animation: type 12s steps(93);
     overflow: hidden;
     white-space: nowrap;
     width: 93ch;
 }
 
-.listings {
-    display: block;
+.menu {
     font-family: odibee;
-    text-align: left;
-    font-size: 20px;
+    font-size: 5vw;
     position: relative;
-    bottom: 40vh;
-    left: 65vw;
+    bottom: 60vh;
+    left: 50vw;
+    list-style: none; 
+    text-align: left;
+}
+
+.menu li {
+    display: table-row; 
+    position: relative; 
+    padding: 15px 0;
+}
+
+.menu a {
+    color: black;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative; 
+}
+
+.menu a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background:black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.menu a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
+
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
 }
 
 @keyframes type {
@@ -73,3 +111,4 @@ h1.text{
         width: 93ch;
     }
 }
+
