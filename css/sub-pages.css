@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "odibee";
+    src: url(../fonts/OdibeeSans-Regular.ttf);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+body,html {
+    margin: 0;
+    font-family: odibee;
+    background: black;
+}
+
+
+
+.header {
+    font-size: 50px;
+    color: blanchedalmond;
+    text-align: center;
+    top: 15vh;
+    position: relative;
+}
+
+ul { 
+    margin: 100px auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 800px;
+    text-align: center;
+}
+
+li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+  
+a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+section {
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    display: inline-block;
+
+}
+
+.about-img {
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    float: right;
+    right: 25vw;
+    border-radius: 50%;
+    margin: 0 0 10px 10px;
+}
+
+.about-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section p {
+    position: relative;
+    left: 22vw;
+    color: white;
+    line-height: 1.5em;
+    text-align: justify;
+    width: 30%;
+    font-size: 20px;
+}
+  
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+  
