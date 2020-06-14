@@ -1,5 +1,5 @@
-$(function() {
-    $("#about").hover(function() {
-        $(this).css({"text-decoration": "underline"});
-    });
-})
+// $(function() {
+//     $('#button').click(function() {
+//         $("external link").attr({'href': 'https://www.youtube.com/watch?v=4HcxLnDaB_w'});
+//     });
+// })

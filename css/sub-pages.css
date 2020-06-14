@@ -108,7 +108,61 @@ section p {
     width: 30%;
     font-size: 20px;
 }
-  
+
+h2 {
+    color: white;
+    position: relative;
+    top: 2vh;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+h3 {
+    color: white;
+    position: relative;
+    top: 38vh;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#video1 {
+    display: block;
+    height: 30%;
+    left: 38%;
+    position: absolute;
+    top: 35vh;
+    width: 25%;
+}
+
+#video2 {
+    display: block;
+    height: 30%;
+    left: 38%;
+    position: absolute;
+    top: 75vh;
+    width: 25%;
+}
+
+#video3 {
+    display: block;
+    height: 30%;
+    left: 38%;
+    position: absolute;
+    top: 108vh;
+    width: 25%;
+}
+
+#video4 {
+    display: block;
+    height: 30%;
+    left: 38%;
+    position: absolute;
+    top: 141vh;
+    width: 25%;
+}
+
 @media screen and (max-height: 300px) {
     ul {
         margin-top: 40px;
