@@ -27,6 +27,13 @@ $(document).ready(function() {
         $(this).css("background-color", "black");
     });
 
+    $("#b5").hover(function() {
+        $("#b5").css("background-color", "yellowgreen");
+    },
+    function() {
+        $(this).css("background-color", "black");
+    });
+
     $("#b1").click(function() {
         $("#dm-salesman").css("color", "white");
     });
@@ -41,5 +48,9 @@ $(document).ready(function() {
 
     $("#b4").click(function() {
         $("#dm-manager").css("color", "white");
+    });
+
+    $("#b5").click(function() {
+        $("#beets").css("color", "white");
     });
 });
