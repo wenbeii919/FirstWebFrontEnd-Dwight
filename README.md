@@ -7,7 +7,7 @@
 <details>
     <summary>landing page</summary>
 
-- The landing page includes 3 animated components by using css, a block element of unordered listings, an external link in a new tab attached with "Bears, Beets, Battlestar Galactica" listing, and 3 internal links to other pages in the same window. 
+- This page includes 3 animated components by using css, a block element of unordered listings, an external link in a new tab attached with "Bears, Beets, Battlestar Galactica" listing, and 3 internal links to other pages in the same window. 
 
 - Interactive/animated components:
     1. the heading "BEET YOU!" uses blink animation
@@ -20,7 +20,16 @@
 <details>
     <summary>"about me" page</summary>
 
-- The "About Me" page simply consists of a rounded image and a paragraph. I was trying to make the text wrap the image by using shape-outside: circle(), but it didn't work. I assume it's about div layer?
+- This page simply consists of a rounded image and a paragraph. I was trying to make the text wrap the image by using shape-outside: circle(), but it didn't work. I assume it's about div layer?
 
 ![](image/about_page.PNG)
+</details>
+
+<details>
+    <summary>"professional experiences" page</summary>
+
+- This page contains a html table with buttons inside each row cell and 2 interactive/animated elements by applying jQuery. When the cursor is hovering on the buttons, the cursor will change to a pointer shape and the background color will change to a different one; when you click each button, the according text will appear on the right. 
+
+![](image/professional_page.PNG)
+![](image/prof_page_after.PNG)
 </details>
