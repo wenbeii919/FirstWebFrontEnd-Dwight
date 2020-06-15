@@ -28,8 +28,23 @@
 <details>
     <summary>"professional experiences" page</summary>
 
-- This page contains a html table with buttons inside each row cell and 2 interactive/animated elements by applying jQuery. When the cursor is hovering on the buttons, the cursor will change to a pointer shape and the background color will change to a different one; when you click each button, the according text will appear on the right. 
+- This page contains a html table with buttons inside each row cell and 2 interactive/animated elements by applying jQuery. When the cursor is hovering on the buttons, the cursor will change to a pointer shape and the background color will change to a different one, plus a callback function to change the color back to black; when you click each button, the according text will appear on the right. 
 
 ![](image/professional_page.PNG)
 ![](image/prof_page_after.PNG)
+</details>
+
+<details>
+    <summary>"atheletic and special skills" page</summary>
+
+- This page simply consists of embedded YouTube videos link by using iframe tag.
+
+![](image/atheletic.PNG)
+</details>
+
+<details>
+    <summary>miscellaneous</summary>
+
+- Font used in all the pages are applying css @font-face rule
+
 </details>
